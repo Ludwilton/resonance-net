@@ -68,8 +68,11 @@ All data at 48kHz sampling rate.
 ## Repository
 
 `src/rnet_model.py`  LSTM architecture, ESR loss
+
 `src/train.py` Training loop, validation, checkpointing
+
 `src/utils.py` Audio I/O, preprocessing, evaluation utilities
+
 `train_lstm.ipynb` Demo notebook with training & inference examples
 
 
