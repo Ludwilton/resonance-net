@@ -23,11 +23,11 @@ From the thesis evaluation:
 | Aspect | LSTM (32 cells) | WaveNet/TCN |
 |--------|----------------|-------------|
 | ESR Loss | 0.05-0.07 | 0.05-0.07 |
-| Perceptual Quality | Superior (especially high frequencies) | Acceptable but artificial highs |
-| Inference Cost | Lower | Higher |
+| Perceptual Quality | Superior  | Acceptable but artificial highs/lows |
 | Real-time capability |  Verified (<10ms latency) |  Verified |
 
 !["LSTM results"](/assets/lstm_model_eval.png)
+!["TCN results"](/assets/tcn_model_eval.png)
 
 **Successfully modeled:**
 - High/low gain amplifiers
