@@ -27,7 +27,7 @@ From the thesis evaluation:
 | Inference Cost | Lower | Higher |
 | Real-time capability |  Verified (<10ms latency) |  Verified |
 
-!["LSTM results"](assets\lstm_model_eval.png)
+!["LSTM results"](/assets/lstm_model_eval.png)
 
 **Successfully modeled:**
 - High/low gain amplifiers
