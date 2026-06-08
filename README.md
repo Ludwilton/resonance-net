@@ -8,7 +8,7 @@ This code accompanies my thesis, *"Effektiva neurala nätverk för modellering a
 
 ## Overview
 
-Two neural network architectures are implemented and evaluated:
+Two neural network architectures were implemented and evaluated:
 
 - **LSTM** (Long Short-Term Memory) - Single layer with 32 hidden cells
 - **WaveNet / TCN** (Temporal Convolutional Network) - Stacked dilated causal convolutions with gated activations
@@ -23,11 +23,11 @@ From the thesis evaluation:
 | Aspect | LSTM (32 cells) | WaveNet/TCN |
 |--------|----------------|-------------|
 | ESR Loss | 0.05-0.07 | 0.05-0.07 |
-| Perceptual Quality | Superior (especially high frequencies) | Acceptable but artificial highs |
-| Inference Cost | Lower | Higher |
+| Perceptual Quality | Superior  | Acceptable but artificial highs/lows |
 | Real-time capability |  Verified (<10ms latency) |  Verified |
 
-!["LSTM results"](assets\lstm_model_eval.png)
+!["LSTM results"](/assets/lstm_model_eval.png)
+!["TCN results"](/assets/tcn_model_eval.png)
 
 **Successfully modeled:**
 - High/low gain amplifiers
