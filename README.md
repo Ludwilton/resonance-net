@@ -8,7 +8,7 @@ This code accompanies my thesis, *"Effektiva neurala nätverk för modellering a
 
 ## Overview
 
-Two neural network architectures are implemented and evaluated:
+Two neural network architectures were implemented and evaluated:
 
 - **LSTM** (Long Short-Term Memory) - Single layer with 32 hidden cells
 - **WaveNet / TCN** (Temporal Convolutional Network) - Stacked dilated causal convolutions with gated activations
